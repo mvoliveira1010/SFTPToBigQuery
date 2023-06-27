@@ -1,5 +1,6 @@
 # SFTPToBigQuery
 ETL batch pipeline to get files from SFTP and upload them to Cloud Storage, then open from Cloud Storage and ingesting data to BigQuery.
+
 **1º step:** fn-sftp-to-gcs.py
 Description: This Python script is triggered by HTTP request, open a SSH and SFTP connection, get the file by file_name param, and write it to a blob on a Cloud Storage bucket).
 
